@@ -23,10 +23,9 @@ The animal at that index is Dog
 """
 myList = ["Cat","Fish","Dog","Bear","Turtle"]
 
-print("\n======")
 
-print(" string animal[0] is " + str(animal[0]))
-print(" string animal[1] is " + str(animal[1]))
-print(" string animal[2] is " + str(animal[2]))
-print(" string animal[-1] is " + str(animal[-1]))
-print(" string animal[-2] is " + str(animal[-2]))
+animals = ['Cat','Fish','Dog','Bear','Turtle']
+animals.sort()
+print(animals)
+inp=int(input("Enter the index for an animal: "))
+print("the animal at that index is "+animals[inp])
