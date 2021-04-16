@@ -21,7 +21,12 @@ example:
 Enter the index for an animal:2
 The animal at that index is Dog
 """
+myList = ["Cat","Fish","Dog","Bear","Turtle"]
 
+print("\n======")
 
-
-animals =
+print(" string animal[0] is " + str(animal[0]))
+print(" string animal[1] is " + str(animal[1]))
+print(" string animal[2] is " + str(animal[2]))
+print(" string animal[-1] is " + str(animal[-1]))
+print(" string animal[-2] is " + str(animal[-2]))

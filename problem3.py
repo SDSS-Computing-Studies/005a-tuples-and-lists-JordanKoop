@@ -25,3 +25,17 @@ The largest number you entered is 92
 """
 
 
+print("\n======")
+
+myList = []
+count = int(input("Enter an integer: ").strip())
+
+while count >= 0:
+    count = int(input("Enter an integer: ").strip())
+    myList.insert(count, count)
+    if count < 0:
+        break
+
+myList.sort()
+print(" The largest number you entered is " + str(myList[-1]))
+

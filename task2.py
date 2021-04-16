@@ -23,3 +23,9 @@ Enter a word: virus
 
 ['apple', 'worm', 'dollar', 'shingle', 'virus']
 """
+List = []
+for i in range(5):
+    #range5-> 0,1,2,3,4
+    a = input().strip()
+    List.append(a)
+print(List)
